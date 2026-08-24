@@ -1,0 +1,69 @@
+{
+  "ui_defs": [
+    {
+      "namespace": "gzt",
+      "controls": {
+        "gzt_main_panel": {
+          "type": "panel",
+          "layer": 10,
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "size": [256, 320],
+          "controls": [
+            {
+              "header_title": {
+                "type": "label",
+                "text": "GzT OWNER PANEL",
+                "font_size": "large",
+                "text_alignment": "center",
+                "color": "#FFD700"
+              }
+            },
+            {
+              "category_visual": {
+                "type": "button",
+                "text": "VISUAL",
+                "size": [240, 30]
+              }
+            },
+            {
+              "category_world": {
+                "type": "button",
+                "text": "WORLD",
+                "size": [240, 30]
+              }
+            },
+            {
+              "category_player": {
+                "type": "button",
+                "text": "PLAYER",
+                "size": [240, 30]
+              }
+            },
+            {
+              "category_admin": {
+                "type": "button",
+                "text": "ADMIN",
+                "size": [240, 30]
+              }
+            },
+            {
+              "btn_minimize": {
+                "type": "button",
+                "text": "—",
+                "size": [30, 30]
+              }
+            },
+            {
+              "btn_close": {
+                "type": "button",
+                "text": "X",
+                "size": [30, 30]
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
